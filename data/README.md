@@ -5,12 +5,12 @@
 
 Large files were compressed using `zip -9`. Each file contains data for a specific range of conductors, prime and Teichmüller twist, e.g. `10h7-p3t1` for conductors $<10^7$, $p=3$ and twist $1$, or `10h10-10h6` for *high* conductors between $10^{10}$ and $10^{10} + 10^6$.    
 
-Usually, each line contains the data for one character with $\lambda_p \geq 1$, e.g.:   
+Each line contains the data for one quadratic character with $\lambda_p \geq 1$, e.g.:   
 `p=3, twist=1, Fundamental Discriminant=-31 ==> lambda=1, slopes=[1]`
 
-For the discriminants of the characteristic polynomial, only characters with $\lambda_p =2$ are printed out.   
-
-The last line of each file contains a summary of the statistics of all characters in the given range (including those where $\lambda_p=0$), e.g.:   
+Depending on the use case, only characters with $\lambda_p \geq 1$, $\lambda_p=2$ or $\lambda_p \geq 2$ are printed out.   
+ 
+The last line of each file contains a summary of the statistics of all characters in the given range, e.g.:   
 `p=3, twist=1, distribution-lambda=[666928, 307495, 108810, 37527, 12745, 4263, 1388, 470, 162, 51, 17, 4, 1, 1, 1]`
 
 #### Citation
