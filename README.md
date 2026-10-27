@@ -40,7 +40,9 @@ The code in this repository:
 - **[iwasawa_power_series_disc.ipynb](iwasawa_power_series_disc.ipynb)**  
   Interactive Jupyter notebook implementing the interpolation, Iwasawa power series approximation, Newton slope extraction, and *computation of the discriminant of the distinguished polynomial for the degree 2 case* ($\lambda=2$). 
 - **[iwasawa_power_series_shift.ipynb](iwasawa_power_series_shift.ipynb)**   
-  Interactive Jupyter notebook implementing the interpolation, Iwasawa power series approximation, *shifts of an Iwasawa power series*, and Newton slope extraction. 
+  Interactive Jupyter notebook implementing the interpolation, Iwasawa power series approximation, *shifts of an Iwasawa power series*, and Newton slope extraction.
+- **[l_values_Cohen_Eisenstein.ipynb](l_values_Cohen_Eisenstein.ipynb)**
+  Interactive Juypter nootebook implementing a high-performance computation of L-values at negative integers via a Cohen–Eisenstein series.
 - **[data/](data/)**  
   Outputs and statistical summaries of $\lambda$-invariants, slope distributions, and zero splitting types for $p \in \{3, 5, 7\}$.
 
@@ -49,7 +51,7 @@ The code in this repository:
 ## Requirements
 
 - **[SageMath](https://www.sagemath.org/)** $\ge 10.4$.
-- Standard bundled **PARI/GP** with $L$-function support (`pari.lfun`).
+- Standard bundled **PARI/GP** with $L$-function support (`pari.lfun`, `pari.mfEH`).
 
 ---
 
