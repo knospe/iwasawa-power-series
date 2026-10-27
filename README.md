@@ -10,7 +10,7 @@ This directory contains the computational code, algorithms, and numerical verifi
 
 ## Overview
 
-We study the local distribution, Newton polygons, and field-theoretic splitting behavior of zeros of $p$-adic $L$-functions attached to quadratic Dirichlet characters $\chi$ of discriminant $D$. 
+We study the local distribution, Newton polygons, and field-theoretic splitting behavior of zeros of $p$-adic $L$-functions attached to quadratic Dirichlet characters $\chi$ of discriminant $D$ and their Teichmüller twists $\omega^i$. 
 
 Using Washington’s change of variable:
 $$T = (1 + |D|p)^s - 1$$
