@@ -5,8 +5,8 @@
 
 Large files were compressed using `zip -9`. Each file contains data for a specific range of conductors, prime and Teichmüller twist, e.g. `10h7-p3t1` for conductors $<10^7$, $p=3$ and twist $1$, or `10h10-10h6` for *high* conductors between $10^{10}$ and $10^{10} + 10^6$.    
 
-Each line contains the data for one quadratic character with $\lambda_p \geq 1$, e.g.:   
-`p=3, twist=1, Fundamental Discriminant=-31 ==> lambda=1, slopes=[1]`
+Each line contains the data for one quadratic character, e.g.:   
+`p=3, twist=1, Fundamental Discriminant=-211 ==> lambda=2, slopes=[1/2, 1/2] , slope=1/2 v(Disc)=1, ramified field extension`
 
 Depending on the use case, only characters with $\lambda_p \geq 1$, $\lambda_p=2$ or $\lambda_p \geq 2$ are printed out.   
  
