@@ -40,7 +40,7 @@ The code in this repository:
 - **[iwasawa_power_series_disc.ipynb](iwasawa_power_series_disc.ipynb)**  
   Interactive Jupyter notebook implementing the interpolation, Iwasawa power series approximation, Newton slope extraction, and *computation of the discriminant of the distinguished polynomial for the degree 2 case* ($\lambda=2$). 
 - **[iwasawa_power_series_shift.ipynb](iwasawa_power_series_shift.ipynb)**   
-  Interactive Jupyter notebook implementing the interpolation, Iwasawa power series approximation, *shifts of a Iwasawa power series* and Newton slope extraction. 
+  Interactive Jupyter notebook implementing the interpolation, Iwasawa power series approximation, *shifts of an Iwasawa power series*, and Newton slope extraction. 
 - **[data/](data/)**  
   Outputs and statistical summaries of $\lambda$-invariants, slope distributions, and zero splitting types for $p \in \{3, 5, 7\}$.
 
