@@ -9,6 +9,8 @@ Each line contains the data for one quadratic character, e.g.:
 `p=3, twist=1, Fundamental Discriminant=-211 ==> lambda=2, slopes=[1/2, 1/2] , slope=1/2 v(Disc)=1, ramified field extension`
 
 Depending on the use case, only characters with $\lambda_p \geq 1$, $\lambda_p=2$ or $\lambda_p \geq 2$ are printed out.   
+
+The `shift` files additionally contain data for various shifts of the variable of the Iwasawa power series.   
  
 The last line of each file contains a summary of the statistics of all characters in the given range, e.g.:   
 `p=3, twist=1, distribution-lambda=[666928, 307495, 108810, 37527, 12745, 4263, 1388, 470, 162, 51, 17, 4, 1, 1, 1]`
